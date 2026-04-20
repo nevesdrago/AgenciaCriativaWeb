@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    min-height: 100vh;
+    justify-items: center;
+    
+
+}
+
+header {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.home {
+    background-color: #f0f0f0;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    width: 100%;
+    text-align: center;
+    background-image: url(business.jpg);
+    background-size: cover;
+}
+
+.sobre {
+    background-color: #f0f0f0;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    width: 100%;
+    text-align: center;
+}
+
+.servicos {
+    background-color: #f0f0f0;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    width: 100%;
+    text-align: center;
+}
+
+.depoimentos {
+    background-color: #f0f0f0;
+    grid-column: 1/4;
+    grid-row: 5/6;
+    width: 100%;
+    text-align: center;
+}
+
+.contato {
+    background-color: #f0f0f0;
+    grid-column: 1/4;
+    grid-row: 6/7;
+    width: 100%;
+    text-align: center;
+}
+
+
+
