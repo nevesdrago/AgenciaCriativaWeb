@@ -1,0 +1,21 @@
+@use 'mixins' as *;
+
+header {
+    @include tamanho-padrao;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-size: 20px;
+}

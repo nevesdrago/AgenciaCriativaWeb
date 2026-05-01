@@ -1,0 +1,17 @@
+@use 'variaveis';
+@use 'mixins' as *;
+.contato {
+    background-color: #43e0e0;
+    grid-column: 1/4;
+    grid-row: 6/7;
+    @include tamanho-padrao;
+    @include alinhamento-padrao;
+    &__h1 {
+        color: variaveis.$cor-texto;
+        text-decoration: variaveis.$texto-underline;
+    }
+
+    &__item {
+        color: variaveis.$cor-texto;
+    }
+}

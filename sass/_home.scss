@@ -1,0 +1,17 @@
+@use 'variaveis';
+@use 'mixins' as *;
+
+.home {
+    background-color: #32a852;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    @include tamanho-padrao;
+    //width: 100%;
+    @include alinhamento-padrao;
+    &__text {
+        color: variaveis.$cor-texto;
+        &--h1 {
+            text-decoration: variaveis.$texto-underline;
+        }
+    }
+}

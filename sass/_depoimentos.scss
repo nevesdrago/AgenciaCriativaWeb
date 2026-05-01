@@ -1,0 +1,17 @@
+@use 'variaveis';
+@use 'mixins' as *;
+
+.depoimentos {
+    background-color: #e0d346;
+    grid-column: 1/4;
+    grid-row: 5/6;
+    @include tamanho-padrao;
+    @include alinhamento-padrao;
+    &__h1 {
+        color: variaveis.$cor-texto;
+        text-decoration: variaveis.$texto-underline;
+    }
+    &__item {
+        color: variaveis.$cor-texto;
+    }
+}
